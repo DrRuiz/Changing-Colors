@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Evolving Colors</title>
+  
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./automata.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./plant.js"></script>
+    <script type="text/javascript" src="./animat.js"></script>
+</head>
+<body>
+    <canvas id="gameWorld" width="700" height="700" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
+    <div id="Sliders">
+        <label for="plantgrowth">Plant Growth</label>
+        <input type="range" id="plantgrowthrate" min="1" max="100" value="20" class="slider">
+        
+        <label for="animatgrowth">Animat Growth</label>
+        <input type="range" id="animatgrowthrate" min="1" max="100" value="5" class="slider">
+    </div>
+    
+    <button id="addPlantButton">Add Plant</button>
+    <button id="addAnimatButton">Add Animat</button>
+    <button id="removePlantsButton">Remove Plants</button>
+</body>
+</html>
